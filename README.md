@@ -28,3 +28,4 @@ Clone the repository and install dependencies:
 git clone <https://github.com/mrnyanlinnhtet/Web-Socket.git>
 cd <Web-Socket>
 npm install
+npm run dev
