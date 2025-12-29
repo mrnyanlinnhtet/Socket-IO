@@ -14,9 +14,10 @@ let server = app.listen(port, () => {
 
 
 /**______ Route setup  ______*/
-app.get("/", (res, req) => {
-   req.sendFile(__dirname + "/public/index.html");
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + "/public/index.html");
 });
+
 
 
 /**______ Socket setup  ______*/
